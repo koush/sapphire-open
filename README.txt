@@ -1,3 +1,9 @@
+---- setup ----
+
+Starting from the root of your source tree and check out the project:
+
+cd vendor/htc
+git clone git://github.com/koush/platform_vendor_htc_mytouch-open.git mytouch-open
 
 ---- build configuration ----
 

@@ -16,6 +16,13 @@ The file would need to contain atleast the following:
     <project path="vendor/htc/magic-open" name="koush/platform_vendor_htc_magic-open" revision="refs/heads/master" remote="github" />
 </manifest>
 
+---- creating an update.zip ----
+
+From the downloads section, you can get a mkupdatezip script (make sure that
+you also get the gen-updatescript file as well). Put both of those scripts
+into your PATH. While in an Android build environment (you have run envsetup
+and lunch), simply type mkupdatezip. The resultant update.zip can then be
+found at out/target/product/device/update.zip.
 
 ---- build configuration ----
 

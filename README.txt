@@ -19,6 +19,10 @@ The file would need to contain atleast the following:
     <project path="vendor/htc/mytouch-open" name="koush/platform_vendor_htc_mytouch-open" revision="refs/heads/master" remote="github" />
 </manifest>
 
+After that file is modified/created, simply run:
+
+repo sync
+
 ---- build configuration ----
 
 You can configure to build for HTC MyTouch (aka T-Mobile MyTouch) by setting

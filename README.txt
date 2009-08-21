@@ -5,9 +5,9 @@ Starting from the root of your source tree and check out the project:
 cd vendor/htc
 git clone git://github.com/koush/platform_vendor_htc_mytouch-open.git mytouch-open
 
----- setup using a localmanifest.xml ----
+---- setup using a .repo/local_manifest.xml ----
 
-You can also add the reference to this project in a localmanifest.xml.
+You can also add the reference to this project in a local_manifest.xml.
 The file would need to contain atleast the following:
 
 <?xml version="1.0" encoding="UTF-8"?>

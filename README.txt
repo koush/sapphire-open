@@ -1,7 +1,7 @@
 
 ---- build configuration ----
 
-You can configure to build for HTC MyTouch (aka T-Mobile MyTouch) by settings
+You can configure to build for HTC MyTouch (aka T-Mobile MyTouch) by setting
 your environment at the root of the source tree:
 
 . build/envsetup.sh

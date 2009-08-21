@@ -13,7 +13,7 @@ The file would need to contain atleast the following:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github" fetch="git://github.com/" />
-    <project path="vendor/htc/magic-open" name="koush/platform_vendor_htc_magic-open" revision="refs/heads/master" remote="github" />
+    <project path="vendor/htc/mytouch-open" name="koush/platform_vendor_htc_mytouch-open" revision="refs/heads/master" remote="github" />
 </manifest>
 
 ---- creating an update.zip ----
@@ -30,7 +30,7 @@ You can configure to build for HTC MyTouch (aka T-Mobile MyTouch) by setting
 your environment at the root of the source tree:
 
 . build/envsetup.sh
-lunch htc_magic-eng
+lunch htc_mytouch-eng
 
 ---- proprietary files ----
 

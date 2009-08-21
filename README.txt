@@ -1,18 +1,15 @@
 
 ---- build configuration ----
 
-You can configure to build for HTC Dream (aka T-Mobile G1) by putting
-the following in your buildspec.mk file at the root of the source tree:
+You can configure to build for HTC MyTouch (aka T-Mobile MyTouch) by settings
+your environment at the root of the source tree:
 
-TARGET_PRODUCT := htc_sapphire
-
-If you wish to override the included prebuilt kernel image, add:
-
-TARGET_PREBUILD_KERNEL := /path/to/kernel/arch/arm/boot/zImage
+. build/envsetup.sh
+lunch htc_magic-eng
 
 ---- proprietary files ----
 
-The HTC Dream device includes a small number of proprietary binary 
+The HTC MyTouch device includes a small number of proprietary binary 
 files that are necessary for Android to work correctly on it.
 
 They can be obtained from your Dream device by running the

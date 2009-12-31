@@ -6,7 +6,11 @@ following.
 Starting from the root of your source tree, check out the project:
 
 cd vendor/htc
-git clone git://github.com/koush/platform_vendor_htc_mytouch-open.git mytouch-open
+git clone git://github.com/koush/mytouch-open.git mytouch-open
+# You may want to checkout the appropriate branch:
+# git checkout -b cupcake origin/cupcake
+# or 
+# git checkout -b eclair origin/eclair
 
 ---- preferred setup using a .repo/local_manifest.xml ----
 
@@ -16,8 +20,10 @@ The file would need to contain atleast the following:
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <remote name="github" fetch="git://github.com/" />
-    <project path="vendor/htc/mytouch-open" name="koush/platform_vendor_htc_mytouch-open" revision="refs/heads/master" remote="github" />
+    <project path="vendor/htc/mytouch-open" name="koush/mytouch-open" revision="refs/heads/master" remote="github" />
 </manifest>
+
+As above, you may want to change the "revision" attribute to the appropriate branch.
 
 After that file is modified/created, simply run:
 
